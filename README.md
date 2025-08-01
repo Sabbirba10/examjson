@@ -1,6 +1,6 @@
 # Exam JSON
 
-This project is called PDF to JSON Converter which provides a utility for converting PDF files containing examination schedules into JSON format. The main functionality is implemented in the `src/convert.py` file, which processes PDF tables and extracts relevant data.
+This project Exam JSON is also called PDF to JSON Converter for BRACU Exam Schedule which provides a utility for converting PDF files containing examination schedules into JSON format. The main functionality is implemented in the `src/convert.py` file, which processes PDF tables and extracts relevant data.
 
 ## Features
 
