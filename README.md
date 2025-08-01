@@ -1,6 +1,6 @@
-# PDF to JSON Converter
+# Exam JSON
 
-This project provides a utility for converting PDF files containing examination schedules into JSON format. The main functionality is implemented in the `src/convert_schedule.py` file, which processes PDF tables and extracts relevant data.
+This project is called PDF to JSON Converter which provides a utility for converting PDF files containing examination schedules into JSON format. The main functionality is implemented in the `src/convert.py` file, which processes PDF tables and extracts relevant data.
 
 ## Features
 
