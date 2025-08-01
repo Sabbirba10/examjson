@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "source": "ENG102.pdf",
+    "generated_at": "2025-08-02T02:55:07.182220",
+    "total_entries": 14,
+    "fields_description": {
+      "Course": "Course code",
+      "Section": "Class section number",
+      "Mid Date": "Examination date (YYYY-MM-DD)",
+      "Start Time": "Exam start time (24-hour format, first in range)",
+      "End Time": "Exam end time (24-hour format, last in range)",
+      "Room.": "Examination room (Classroom)",
+      "Dept.": "Department offering the course"
+    }
+  },
+  "exams": [
+    {
+      "Course": "ENG102",
+      "Section": "01-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-18C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "02",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-18C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "02",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-19C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "03",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-19C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "04",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-19C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "04",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-20C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "05",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-20C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "06",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-20C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "06",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-21C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "07",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-21C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "08",
+      "Mid Date": "2025-07-26",
+      "Room.": "07D-21C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "08",
+      "Mid Date": "2025-07-26",
+      "Room.": "07F-22C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "09-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07F-22C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG102",
+      "Section": "09-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-17C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    }
+  ]
+}
