@@ -94,5 +94,5 @@ All entries in the output JSON will have the course code you provided.
 - Make sure you have installed the required dependencies (e.g., `pdfplumber`).
 - You can install dependencies with:
   ```
-  pip3 install -
+  pip3 install - requirements.txt
   ```
