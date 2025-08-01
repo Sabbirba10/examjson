@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "source": "ENG091.pdf",
+    "generated_at": "2025-08-02T03:20:08.214883",
+    "total_entries": 38,
+    "fields_description": {
+      "Course": "Course code",
+      "Section": "Class section number",
+      "Mid Date": "Examination date (YYYY-MM-DD)",
+      "Start Time": "Exam start time (24-hour format, first in range)",
+      "End Time": "Exam end time (24-hour format, last in range)",
+      "Room.": "Examination room (Classroom)",
+      "Dept.": "Department offering the course"
+    }
+  },
+  "exams": [
+    {
+      "Course": "ENG091",
+      "Section": "01",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-01C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "02-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-01C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "02-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-02C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "03",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-02C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "04",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-02C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "04",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-03C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "05",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-03C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "05",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-04C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "06",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-04C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "07",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-04C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "07",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-05C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "08",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-05C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "09",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-05C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "09",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-06C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "10",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-06C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "11",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-06C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "11",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-07C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "12",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-07C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "12",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-08C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "13",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-08C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "14-PHR",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-08C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "15",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-09C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "16",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-09C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "16",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-10C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "17",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-10C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "18",
+      "Mid Date": "2025-07-26",
+      "Room.": "07A-10C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "18",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-11C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "19",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-11C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "20",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-11C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "20",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-13C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "21",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-13C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "21",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-15C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "22",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-15C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "23",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-15C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "23",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-16C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "24",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-16C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "25",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-16C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    },
+    {
+      "Course": "ENG091",
+      "Section": "25",
+      "Mid Date": "2025-07-26",
+      "Room.": "07B-17C",
+      "Dept.": "BIL",
+      "Start Time": "11:00",
+      "End Time": "00:30"
+    }
+  ]
+}
