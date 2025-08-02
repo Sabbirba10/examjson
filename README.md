@@ -6,11 +6,11 @@ This repository contains scripts to extract and convert exam schedules from PDF 
 
 ```
 exam.pdf                # Example input PDF file
-general.json            # Example output JSON file (pdf)
+general.json            # Example output JSON file (general)
 bil.json                # Example output JSON file (bil)
 script/
     bil.py              # Script for extracting midterm exam schedules (BIL department)
-    general.py          # Script for extracting final exam schedules (general)
+    general.py          # Script for extracting final exam schedules (General department)
 ```
 
 ## Requirements
