@@ -10,7 +10,7 @@ general.json            # Example output JSON file (pdf)
 bil.json                # Example output JSON file (bil)
 script/
     bil.py              # Script for extracting midterm exam schedules (BIL department)
-    general.py             # Script for extracting final exam schedules (general)
+    general.py          # Script for extracting final exam schedules (general)
 ```
 
 ## Requirements
