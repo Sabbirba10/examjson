@@ -259,35 +259,49 @@ def convert_pdf_to_json(pdf_path, json_path):
                         entry["Page Number"] = page_num
                         entry["Line Number"] = line_number_in_pdf
 
-                        if is_valid_entry(entry):
+                        if is_valid_entry(entry) and len(str(entry.get("Course", ""))) <= 7:
                             all_entries.append(entry)
                             print(f"    Added entry: Course={entry.get('Course')}, Section={entry.get('Section')}, Page={page_num}, Line={line_number_in_pdf}")
-                        else:
+                        elif not is_valid_entry(entry):
                             print(f"    Skipping invalid entry")
+                        else:
+                            print(f"    Skipping entry with long Course code: {entry.get('Course')}")
             else:
                 print(f"  No tables found on page {page_num}")
 
     print(f"Total valid entries extracted: {len(all_entries)}")
 
-    # Create final output with metadata
+    # Determine if any Course value is more than 7 characters
+    course_too_long = any(
+        "Course" in entry and len(str(entry["Course"])) > 7
+        for entry in all_entries
+    )
+
+    # Create fields_description dictionary
+    fields_description = {
+        "Course": "Course code",
+        "Section": "Class section number",
+        "Final Date": "Examination date (YYYY-MM-DD)",
+        "Start Time": "Exam start time (24-hour format)",
+        "End Time": "Exam end time (24-hour format)",
+        "Room.": "Examination room",
+        "Dept.": "Department offering the course",
+        "Page Number": "Page number from which the entry was extracted",
+        "Line Number": "Line number from which the entry was extracted",
+        "RowText": "Full concatenated text of the row as it appears in the PDF",
+        "BoundingBox": "Coordinates of the row in the PDF (x0, y0, x1, y1)"
+    }
+
+    # Remove "Course" from fields_description if any course code is more than 7 characters
+    if any("Course" in entry and len(str(entry["Course"])) > 7 for entry in all_entries):
+        fields_description.pop("Course")
+
     output = {
         "metadata": {
             "source": pdf_path,
             "generated_at": datetime.now().isoformat(),
             "total_entries": len(all_entries),
-            "fields_description": {
-                "Course": "Course code",
-                "Section": "Class section number",
-                "Final Date": "Examination date (YYYY-MM-DD)",
-                "Start Time": "Exam start time (24-hour format)",
-                "End Time": "Exam end time (24-hour format)",
-                "Room.": "Examination room",
-                "Dept.": "Department offering the course",
-                "Page Number": "Page number from which the entry was extracted",
-                "Line Number": "Line number from which the entry was extracted",
-                "RowText": "Full concatenated text of the row as it appears in the PDF",
-                "BoundingBox": "Coordinates of the row in the PDF (x0, y0, x1, y1)"
-            }
+            "fields_description": fields_description
         },
         "exams": all_entries
     }
