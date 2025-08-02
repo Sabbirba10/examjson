@@ -6,11 +6,11 @@ This repository contains scripts to extract and convert exam schedules from PDF 
 
 ```
 exam.pdf                # Example input PDF file
-pdf.json                # Example output JSON file (pdf)
+general.json                # Example output JSON file (pdf)
 bil.json                # Example output JSON file (bil)
 script/
     bil.py              # Script for extracting midterm exam schedules (BIL department)
-    pdf.py              # Script for extracting final exam schedules (general)
+    general.py             # Script for extracting final exam schedules (general)
 ```
 
 ## Requirements
@@ -31,7 +31,7 @@ pip install pdfplumber
 Use [`script/pdf.py`](script/pdf.py):
 
 ```sh
-python script/pdf.py exam.pdf output5.json
+python script/general.pyexam.pdf output5.json
 ```
 
 ### For BIL Exam Schedules (BIL Department)
@@ -39,7 +39,7 @@ python script/pdf.py exam.pdf output5.json
 Use [`script/bil.py`](script/bil.py):
 
 ```sh
-python3 script/bil.py exam.pdf pdf.json
+python3 script/bil.py exam.pdf general.json
 ```
 
 ## Script Execution Example
@@ -58,11 +58,11 @@ python3 script/bil.py exam.pdf bil.json
 ### Midterm Exam Script Example
 
 ```sh
-python script/pdf.py exam.pdf pdf.json
+python script/general.pyexam.pdf general.json
 ```
 
 - **Input:** `exam.pdf` (Exam schedule PDF, General department format)
-- **Output:** `pdf.json` (JSON file with extracted general exam schedule)
+- **Output:** `general.json` (JSON file with extracted general exam schedule)
 - **How it works:**  
   This script is tailored for the BIL department's midterm schedule format. It processes the PDF, extracts relevant exam details, and outputs them in the same structured JSON format as the final exam script.
 
