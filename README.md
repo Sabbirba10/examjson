@@ -25,7 +25,7 @@ pip install -r requirements.txt
 To convert a PDF file to JSON format, use the following command:
 
 ```
-python src/convert.py input.pdf output.json
+python3 src/convert.py input.pdf output.json
 ```
 
 Replace `input.pdf` with the path to your PDF file and `output.json` with the desired path for the output JSON file.
