@@ -28,10 +28,10 @@ pip install pdfplumber
 
 ### For General Exam Schedules
 
-Use [`script/pdf.py`](script/pdf.py):
+Use [`script/general.py`](script/general.py):
 
 ```sh
-python script/general.pyexam.pdf output5.json
+python script/general.py exam.pdf general.json
 ```
 
 ### For BIL Exam Schedules (BIL Department)
@@ -39,32 +39,32 @@ python script/general.pyexam.pdf output5.json
 Use [`script/bil.py`](script/bil.py):
 
 ```sh
-python3 script/bil.py exam.pdf general.json
+python script/bil.py exam.pdf bil.json
 ```
 
 ## Script Execution Example
 
-### Final Exam Script Example
+### General Exam Script Example
 
 ```sh
-python3 script/bil.py exam.pdf bil.json
+python script/general.py exam.pdf general.json
 ```
 
-- **Input:** `exam.pdf` (Merged exam schedule PDF)
-- **Output:** `bil.json` (JSON file with extracted BIL exam schedule)
+- **Input:** `exam.pdf` (exam schedule PDF, General department format)
+- **Output:** `general.json` (JSON file with extracted general exam schedule)
 - **How it works:**  
   The script reads the PDF, extracts tables or lines containing exam information, parses fields like Course, Section, Date, Time, Room, and Department, and writes them as structured JSON. Each exam entry includes metadata such as page and line number.
 
-### Midterm Exam Script Example
+### BIL Exam Script Example
 
 ```sh
-python script/general.pyexam.pdf general.json
+python script/bil.py exam.pdf bil.json
 ```
 
-- **Input:** `exam.pdf` (Exam schedule PDF, General department format)
-- **Output:** `general.json` (JSON file with extracted general exam schedule)
+- **Input:** `exam.pdf` (exam schedule PDF, BIL department format)
+- **Output:** `bil.json` (JSON file with extracted BIL exam schedule)
 - **How it works:**  
-  This script is tailored for the BIL department's midterm schedule format. It processes the PDF, extracts relevant exam details, and outputs them in the same structured JSON format as the final exam script.
+  This script is tailored for the BIL department's exam schedule format. It processes the PDF, extracts relevant exam details, and outputs them in the same structured JSON format as the general exam script.
 
 ## Example Output
 
